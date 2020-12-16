@@ -4,8 +4,8 @@ Author: Francesco De Santis
 The repository contains the following files
 
 * *README.md*: this file
-* *tidy_data_set.txt*: dataset
-* *tidy_data_codebook.md*: codebook with the explanation of the variables contained in the tidy_data_set.txt file
+* *tidy_data.txt*: dataset
+* *tidy_data_codebook.md*: codebook with the explanation of the variables contained in the tidy_data.txt file
 * *run_analysis.R*: R script containing used for processing data
 
 The project consists in processing and tyding data originally collected during an experiment of on Human Activity Recognition Using Smartphones Dataset.
