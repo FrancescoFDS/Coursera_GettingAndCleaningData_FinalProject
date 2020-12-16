@@ -1,4 +1,20 @@
- | Variable | Type | Values | Unit | Device | Description | 
+# Codebook of the data set "tidy_data.txt"
+
+The dataset contains 180 observations (rows) and 68 features (columns).
+Each observation contains the average of a selection of the original features (mean and standard deviation), for each activity and subject.
+
+
+
+## Variables
+The variables are described in this file by:
+* *Variable name*
+* *Type:* Numeric or Categorical. The numeric variables are normalized and have no dimension.
+* *Values:* Range of values
+* *Domain:* Domain of the original feature (Time or Frequency)
+* *Device:* Device used for collecting the original data
+* *Description:* An extensive, short description of the variable
+
+| Variable name| Type | Values | Domain | Device | Description | 
  | --- | --- | --- | --- | --- | --- | 
  | Activity | Categorical | <ul><li>WALKING</li><li>WALKING UPSTAIRS</li><li>WALKING DOWNSTAIRS</li><li>SITTING</li><li>STANDING</li><li>LAYING</li></ul> | - | - | Activity performed by the subject during the measurements |
  | Subject | Numeric | 1 - 30 | - | - | Index identifying the subject who performed the activity |
